@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Color Website</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #00008B, #FFFFFF, #82cee3);
+            color: #000000;
+            font-family: 'Agency FB', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #00008B;
+            color: #FFFFFF;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the official site of LayerX:the Catalyst Sandwich</h1>
+    </header>
+    <main>
+        <h2>About This Site</h2>
+        <p>This website is dedicated to the Novastratum's LayerX project.</p>
+    </main>
+    <main>
+        <h2>What is Novastratum?</h2>
+        <a><img src="unnamed.jpg" style="width:200px;height: 200px" alt="Novastratum LayerX"></a>
+        <p>Novastratum is a revolutionary technology company focused on creating innovative solutions for the climate change basically about the car filtres.</p>
+    </main>
+    <main>
+        <h2>What is LayerX</h2>
+        <p>Modern internal combustion engines produce *CO (carbon monoxide)* and *NOx (nitrogen oxides)* gases in the highest concentrations when they first start (cold start). Since current catalytic converters are not sufficiently active at low temperatures (0–250 °C), these harmful gases are released directly into the atmosphere.</p>
+        <p>In this project, a *new generation, precious metal-free* exhaust filter was developed using *Co–Mn–Mg–Al mixed metal oxides* derived from *Layered Double Hydroxide (LDH)* structure. This filter is specifically designed to operate in the *0–250 °C temperature range*.</p>
+    </main>
+    <main>
+        <h2>What materials are used?</h2>
+        <p>The materials used in the LayerX project include Co–Mn–Mg–Al mixed metal oxides derived from Layered Double Hydroxide (LDH) structure.</p>
+        <p>Co–Mn–Mg–Al LDH-derived mixed metal oxides* are obtained by converting layered hydroxide structures into oxide phases through controlled heat treatment. Structural advantages include:</p>
+        <p>🔹 High surface area</p>
+        <p>🔹 Homogeneous metal distribution</p>
+        <p>🔹 Adjustable pore structure</p>
+        <p>🔹 Strong redox centers (Mn³⁺/Mn⁴⁺, Co²⁺/Co³⁺)</p>
+    </main>
+    <div class="form-konteynir">
+    <h2>Bizimle İletişime Geçin</h2>
+    <form action="/mesaj-gonder" method="POST">
+        <div class="form-grup">
+            <label for="ad">Ad Soyad:</label>
+            <input type="text" id="ad" name="ad" placeholder="Adınızı giriniz..." required>
+        </div>
+
+        <div class="form-grup">
+            <label for="email">E-posta Adresi:</label>
+            <input type="email" id="email" name="email" placeholder="ornek@mail.com" required>
+        </div>
+
+        <div class="form-grup">
+            <label for="konu">Konu:</label>
+            <select id="konu" name="konu">
+                <option value="destek">Bilgi</option>
+                <option value="satis">Teklif-Satış</option>
+                <option value="diger">Diğer</option>
+            </select>
+        </div>
+
+        <div class="form-grup">
+            <label for="mesaj">Mesajınız:</label>
+            <textarea id="mesaj" name="mesaj" rows="5" placeholder="Nasıl yardımcı olabiliriz?"></textarea>
+        </div>
+
+        <button type="submit" class="gonder-btn">Gönder</button>
+    </form>
+</div>
+<footer>
+        <p>&copy; 2026 LayerX:the Catalyst Sandwich</p>
+    </footer>
+</body>
+</html>
